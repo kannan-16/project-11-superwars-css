@@ -1,0 +1,68 @@
+/*-----------------------------------------------------------------------------------------------
+--------------------Author--------------------------------------------------------------------
+----------------Allani Kowshik & Saket kr. Vishwakarma-------------------------------------------*/
+
+
+/*Google font url */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap');
+
+/*styling section */
+
+body {
+    display: flex;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    border: solid rgb(124, 116, 116);
+    padding: 2em;
+    border-radius: 0.5em;
+    align-items: top;
+    margin: 5px;
+    border-width: 1px;
+}
+
+.card {
+    height: 350px;
+    width: 200px;
+    text-align: center;
+}
+
+.card h4 {
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.card h1 {
+    font-size: 4em;
+    font-weight: 200;
+}
+
+.card-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#score {
+    padding: 200px 100px;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: lighter;
+    font-family: 'Barlow Condensed', sans-serif;
+}
